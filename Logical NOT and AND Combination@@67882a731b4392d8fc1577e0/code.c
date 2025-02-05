@@ -8,7 +8,7 @@ int main() {
     if(a<0 && s<0){
         printf("True");
     }
-    else if(a==0 && s==0){
+    else if(a==0 || s==0){
         printf("True");
     }
     else{
