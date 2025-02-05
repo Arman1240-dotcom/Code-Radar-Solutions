@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 
 int main() {
     int a;
@@ -12,7 +9,7 @@ int main() {
     }
     else{
         printf("Not Divisible");
-        
+
     }
     return 0;
 }
