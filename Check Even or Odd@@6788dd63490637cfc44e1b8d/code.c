@@ -8,7 +8,7 @@ int main() {
         pirntf("Enve");
     }
     else{
-        printf("Odd")
+        printf("Odd");
     }
 return 0;
 }
