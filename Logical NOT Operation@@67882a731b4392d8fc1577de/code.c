@@ -8,7 +8,7 @@ int main() {
     if(a<0){
         printf("True");
     }
-    else if{
+    else if(a==0){
         printf("True");
     }
     else{
