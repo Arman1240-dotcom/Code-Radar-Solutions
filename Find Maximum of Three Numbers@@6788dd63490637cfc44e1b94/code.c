@@ -5,6 +5,6 @@ int main() {
     scanf("%d %d %d",a,s,d);
     (a>s && s>d)?printf(a):
     (s>a && a>d)?printf(s):
-    printf(d)
+    printf(d);
     return 0;
 }
