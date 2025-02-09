@@ -7,18 +7,17 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    switch(a){
-        case 90...100:
+    if (a>=90){
         printf("A");
-        case 80...89:
-        printf("B");
-        case 70...79:
-        printf("C");
-        case 60...69:
-        printf("D");
-        default:
-        printf("f");
     }
-
+    else if (a>=80 && a<90){
+        printf("B");
+    }
+    else if (a>=70 && a<80){
+        printf("C");
+    }
+    else if (a>=60 &&a<70){
+        printf("D");
+    }else{printf("F");}
     return 0;
 }
