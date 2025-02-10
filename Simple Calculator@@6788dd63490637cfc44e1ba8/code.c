@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,s;
     char c;
-    scanf("%d %d %c",&a.&s.&c);
+    scanf("%d %d %c",&a,&s,&c);
     switch(c){
         case '+':
         printf("%d",a+s);
