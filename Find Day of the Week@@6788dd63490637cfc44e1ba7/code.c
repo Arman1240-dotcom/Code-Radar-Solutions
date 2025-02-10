@@ -4,22 +4,22 @@ int main(){
     scanf("%d",&a);
 
     if (a==1){
-        printf("Day is Monday");
+        printf("Monday");
     }
     else if (a==2){
-        printf("Day is Tuseday");
+        printf("Tuseday");
     }
     else if (a==3){
-        printf("Day is Wednesday");
+        printf("Wednesday");
     }    
     else if (a==4){
-        printf("Day is Thursday");
+        printf("Thursday");
     }
     else if (a==5){
-        printf("Day is Friday");
+        printf("Friday");
     }
     else if (a==6){
-        printf("Day is Saturday");
+        printf("Saturday");
     }
     else if (a==7){
         printf("Day is Sunday");
