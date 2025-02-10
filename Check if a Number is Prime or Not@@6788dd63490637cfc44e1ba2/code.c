@@ -5,7 +5,7 @@ int main() {
     int s=1;
     for (i=0;i<a;i++){
         if (a%i==0){
-            s=0;
+            s==0;
         }
     }
     if (s==1){
