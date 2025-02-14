@@ -1,9 +1,4 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int a,s;
     char c;
@@ -11,12 +6,18 @@ int main() {
     switch(c){
         case '+':
         printf("%d",(a+s));
+        break;
         case '-':
         printf("%d",(a-s));
+        break;
         case '*':
         printf("%d",(a*s));
+        break;
         case '/':
         printf("%d",(a/s));
+        break;
+        
+        
     }
     return 0;
 }
