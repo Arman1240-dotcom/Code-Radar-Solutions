@@ -17,7 +17,7 @@ int main() {
         if (s != 0) {  // Check for division by zero
             printf("%d", a / s);
         } else {
-            printf("Error: Division by zero");
+            printf("error");
             }
         break;  // Exit the switch after the operation
         
