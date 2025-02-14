@@ -10,13 +10,13 @@ int main() {
     scanf("%d %d %c",&a,&s,&c);
     switch(c){
         case '+':
-        printf("%d",a+s);
+        printf("%d",(a+s));
         case '-':
-        printf("%d",a-s);
+        printf("%d",(a-s));
         case '*':
-        printf("%d",a*s);
+        printf("%d",(a*s));
         case '/':
-        printf("%d",a/s);
+        printf("%d",(a/s));
     }
     return 0;
 }
