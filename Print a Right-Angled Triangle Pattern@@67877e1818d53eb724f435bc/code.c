@@ -1,4 +1,4 @@
-// Your code here...
+
 #include<stdio.h>
 int main(){
     int a;
@@ -9,7 +9,6 @@ int main(){
         }
         printf("\n");
     }
-
     return 0;
 }
 
