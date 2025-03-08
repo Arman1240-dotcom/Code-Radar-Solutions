@@ -7,9 +7,9 @@ int main(){
         for (int j=n;j>=1;j--){
             if (j>=(temp-1)){
                 printf(" ");
-            }else {
-                printf("*");
             }
+            printf("*");
+            
         }
         printf("\n");
     }
